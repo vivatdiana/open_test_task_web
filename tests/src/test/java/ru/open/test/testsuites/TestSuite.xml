@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test task">
+
+    <test name="Web test" enabled="true">
+        <classes>
+            <class name="ru.open.test.testcases.WebTaskTest"/>
+        </classes>
+    </test>
+
+    <test name="Api test" enabled="true">
+        <classes>
+            <class name="ru.open.test.testcases.ApiTaskTest"/>
+        </classes>
+    </test>
+</suite>

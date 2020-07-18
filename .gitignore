@@ -1,0 +1,26 @@
+# Compiled class file
+*.class
+
+
+# Package Files
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+*.log
+log/
+logs/
+target/
+qa-tests/build/
+
+#Allure
+allure-results/
+.allure/
